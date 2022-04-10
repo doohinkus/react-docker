@@ -1,0 +1,11 @@
+version: "3"
+services:
+  react-frontend:
+    container_name: reactjs
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/client
