@@ -22,3 +22,6 @@ To view running containers:
 ```
 docker ps
 ```
+
+Most CORs issues can be resolved in package.json:
+https://create-react-app.dev/docs/proxying-api-requests-in-development/
